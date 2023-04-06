@@ -1,0 +1,192 @@
+*{
+    cursor:pointer;
+    /* vertical-align: top; */
+    
+}
+.subscribe{
+    background-color: rgb(200, 0, 0);
+    color: white;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-right: 8px;
+    transition: opacity 0.15s;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+/* pseudo class */
+.subscribe:hover{
+    /* background-color: green; */
+    opacity: 0.8;
+
+}
+.subscribe:active{
+    /* background-color: aqua; */
+    opacity: 0.5;
+}
+
+
+.join{
+background-color: white;
+border-color: rgb(41, 118, 211);
+border-style: solid;
+border-width: 1px;
+color: rgb(41, 118, 211);
+height: 30px;
+width: 60px;
+border-radius: 2px;
+cursor: pointer;
+transition: background-color 0.15s;
+color: 0.15s
+}
+/* pseudo class */
+.join:hover {
+background-color: rgb(41, 118, 211);
+color: white;
+}
+.join:active {
+    opacity:0.7;
+}
+
+
+.tweet{
+background-color: rgb(49, 184, 238);
+border: none;
+color: white;
+border-radius: 18px;
+width: 75px;
+height: 36px;
+font-weight: bold;
+font-size: 15px;
+cursor:pointer;
+margin-left: 8px;
+transition: box-shadow 0.15s;
+}
+/* pseudo class */
+.tweet:hover{
+box-shadow: 5px 5px 10px rgba(0,0,0,0.15);
+}
+
+
+.uber{
+    background-color: black;
+    color: white;
+    width: 130px;
+    height: 40px;
+    margin-left: 18px;
+    /* outline: 10px solid red; */
+    transition: opacity 0.15s;
+}
+.uber:hover {
+    opacity: 0.8;
+}
+.uber:active {
+    opacity: 0.4;
+}
+
+
+.amazon{
+    background-color: yellow;
+    border-radius: 20px;
+border: none;
+width: 100px;
+height: 30px;
+margin-left: 18px;
+}
+.amazon:hover {
+    background-color: rgb(225, 190, 101);
+}
+
+
+.github{
+    border: none;
+    background-color: green;
+    margin-left: 8px;
+    margin-top: 10px;
+    width: 90px;
+    height: 30px;
+    border-radius: 5px;
+    color:white;
+    font-weight: bold;
+    transition: box-shadow 0.15s;
+}
+.github:hover {
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.65);
+}
+
+
+.bootstrap{
+    background-color: purple;
+    color: white;
+    font-weight: bold;
+    width: 100px;
+    height: 40px;
+    border: none;
+    margin-left: 8px;
+    border: 3px;
+    transition: background-color 0.15s;
+}
+.bootstrap:hover {
+    background-color: darkmagenta;
+}
+
+
+.down{
+    background-color: white;
+    border-color: gray;
+    border-width: 1px;
+    height: 40px;
+    width: 100px;
+    margin-top: 30px;
+    margin-left: 8px;
+    border-radius: 4px;
+    transition: background-color 0.15s;
+color: 0.15s
+}
+.down:hover {
+    background-color: gray;
+    color:white;
+}
+.down:active {
+    opacity: 0.5;
+}
+
+
+.link{
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    border-radius: 18px;
+    width:190px;
+    height:40px;
+    border: none;
+    margin-left: 8px;
+    transition: background-color 0.15s;
+}
+.link:hover{
+    background-color: darkblue;
+}
+.link:active{
+    opacity:0.5;
+}
+
+
+.linked{
+    background-color: white;
+    color: blue;
+    border-color: blue;
+    border-radius: 20px;
+    margin-left: 8px;
+    width:60px;
+    height:40px;
+    font-weight: bold;
+    border-style: solid;
+    transition: background-color 0.15s;
+}
+.linked:hover{
+    background-color: lightcyan;
+    border-width: 3px;
+}
